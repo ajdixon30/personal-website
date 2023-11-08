@@ -1,6 +1,7 @@
 .video-container{
     display: flex;
     align-items:center;
+    padding-bottom: 15vh;
 }
 #portfolio{
     padding-top: 15vh;

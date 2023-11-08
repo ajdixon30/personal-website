@@ -4,7 +4,7 @@ import "../styles/Portfolio.css";
 const Portfolio = () => {
     return (
         <div className="container border-bottom border-black border-2" id="portfolio">
-            <div className="row video-container pb-5">
+            <div className="row video-container">
                 <div className="col-8 offset-2 col-md-6 offset-md-3 justify-content-center">
                     <p className="fw-semibold pb-5" id="projects-intro">
                         Here are a few of my projects:
