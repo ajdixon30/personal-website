@@ -3,11 +3,11 @@ import "../styles/Resume.css"
 
 const Resume = () => {
     return (
-        <div className="border-bottom border-black border-2 container resume-container justify-content-center text-start" id="resume">
-            <div className="row">
-                <div className="col-12">
-                    <p className="border-bottom border-light fs-3 fw-semibold">Skills:</p>
-                    <ul className="fs-5">
+        <div className="border-bottom border-black border-2 container resume-container justify-content-center text-start py-5" id="resume">
+            <div className="row pb-5">
+                <div className="col-10 offset-1 col-md-8 offset-md-2">
+                    <p className="border-bottom border-dark fw-semibold list-title">Skills:</p>
+                    <ul className="list">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>ReactJS</li>
@@ -19,9 +19,9 @@ const Resume = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12">
-                    <p className="border-bottom border-light fs-3 fw-semibold">Education &amp; Work:</p>
-                    <ul className="fs-5">
+                <div className="col-10 offset-1 col-md-8 offset-md-2">
+                    <p className="border-bottom border-dark fw-semibold list-title">Education &amp; Work:</p>
+                    <ul className="list">
                         <li>
                             Senior Associate - Infosys (Dec '21 - May '23)
                             <ul>

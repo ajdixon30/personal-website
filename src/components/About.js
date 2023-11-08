@@ -3,22 +3,22 @@ import "../styles/About.css";
 
 const About = () => {
     return (
-        <div className="about-container container border-bottom border-black border-2" id="about">
+        <div className="about-container container border-bottom border-black border-2 py-5" id="about">
             <div className="row">
-                <div className="col-12">
-                    <p className="fs-3">
+                <div className="col-10 offset-1 col-md-8 offset-md-2">
+                    <p id="intro">
                         Hi, my name is Adam. I have a bachelor's degree in Mechanical engineering,
-                        but I always had an interest in computer programming since taking robotics
+                        but I have always had an interest in computer programming since taking robotics
                         in high school. <br /> <br/>
                     </p>
                 </div>
-                <div className="col-12">
-                    <ul className="fs-3 interests-list">
-                        Outside of programming, my interests include:
-                        <li className="fs-4 fw-semibold py-2">Basketball</li>
-                        <li className="fs-4 fw-semibold py-2">Baseball</li>
-                        <li className="fs-4 fw-semibold py-2">Cartoons</li>
-                        <li className="fs-4 fw-semibold py-2">Video Games</li>
+                <div className="col-10 offset-1 col-md-8 offset-md-2">
+                    <ul id="interests-list">
+                        <p id="interests-preface">Outside of programming, my interests include:</p>
+                        <li className="fw-semibold interest">Basketball</li>
+                        <li className="fw-semibold interest">Baseball</li>
+                        <li className="fw-semibold interest">Cartoons</li>
+                        <li className="fw-semibold interest">Video Games</li>
                     </ul>
                 </div>
             </div>

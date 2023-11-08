@@ -2,3 +2,68 @@
     display: flex;
     align-items:center;
 }
+#projects-intro{
+    font-size: 4vw;
+}
+.project-title{
+    font-size: 20px;
+    text-align: center;
+}
+.project-description{
+    font-size: 12px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #projects-intro{
+        font-size: 23.8px;
+    }
+    .project-description{
+        font-size: 14px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .project-title{
+        font-size: 24px;
+    }
+    .project-description{
+        font-size: 16px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #projects-intro{
+        font-size: 32px;
+    }
+    .project-title{
+        font-size: 24px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #projects-intro{
+        font-size: 38px;
+    }
+    .project-title{
+        font-size: 30px;
+    }
+    .project-description{
+        font-size: 18px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #projects-intro{
+        font-size: 44px;
+    }
+    .project-title{
+        font-size: 36px;
+    }
+    .project-description{
+        font-size: 20px;
+    }
+}

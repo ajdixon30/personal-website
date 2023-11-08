@@ -25,20 +25,24 @@ const Headshot = () => {
         },
     ]
     return (
-        <div className="my-5" id="contact">
-            <img src="adam_prof_2.jpg" className="rounded mx-auto mb-3" id="headshot" alt="My headshot"/>
-            <p className="fs-2">Adam Dixon</p>
-            <p className="fs-4">Aspiring Software Developer</p>
-            <p className="fs-5"><b><u>Email:</u></b> adam.dixon30@gmail.com</p>
-            {sites.map((site, index) => {
-                return (
-                    <div className="row" key={index}>
-                        <div className="col">
-                            <p className="fs-5 fw-bold"><a className="link-light" href={site.url} target="_blank" rel="noreferrer">{site.website}</a></p>
-                        </div>
-                    </div>
-                )
-            })}
+        <div className="container my-5">
+            <div className="row text-center">
+                <div className="col-10 offset-1 col-md-8 offset-md-2">
+                    <img src="adam_prof_2.jpg" className="rounded mx-auto mb-3" id="headshot" alt="My headshot"/>
+                    <p id="contact-name">Adam Dixon</p>
+                    <p id="contact-title">Aspiring Software Developer</p>
+                    <p id="contact-email"><b><u>Email:</u></b> adam.dixon30@gmail.com</p>
+                    {sites.map((site, index) => {
+                        return (
+                            <div className="row" key={index}>
+                                <div className="col">
+                                    <p className="fw-bold link"><a className="link-dark" href={site.url} target="_blank" rel="noreferrer">{site.website}</a></p>
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
         </div>
     )
 }
