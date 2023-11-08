@@ -25,7 +25,7 @@ const Headshot = () => {
         },
     ]
     return (
-        <div className="container my-5">
+        <div className="container my-5" id="contact">
             <div className="row text-center">
                 <div className="col-10 offset-1 col-md-8 offset-md-2">
                     <img src="adam_prof_2.jpg" className="rounded mx-auto mb-3" id="headshot" alt="My headshot"/>
