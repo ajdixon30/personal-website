@@ -1,0 +1,12 @@
+.navbar {
+    position: sticky;
+    padding: 3vh 40px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
