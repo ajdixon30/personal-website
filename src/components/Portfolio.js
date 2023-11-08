@@ -4,7 +4,7 @@ import "../styles/Portfolio.css";
 const Portfolio = () => {
     return (
         <div className="container border-bottom border-black border-2" id="portfolio">
-            <div className="row video-container">
+            <div className="row video-container py-5">
                 <div className="col-8 offset-2 col-md-6 offset-md-3 justify-content-center">
                     <p className="fs-3 fw-semibold">
                         <a className="link-light" href="https://ajdixon30-weather-app.netlify.app/" target="_blank" rel="noreferrer">Weather App</a>
@@ -20,7 +20,7 @@ const Portfolio = () => {
                     </video>
                 </div>
             </div>
-            <div className="row video-container">
+            <div className="row video-container pb-5">
                 <div className="col-8 offset-2 col-md-6 offset-md-3 justify-content-center">
                     <p className="fs-3 fw-semibold">
                         <a className="link-light mb-3" href="https://poeltl-clone.onrender.com/" target="_blank" rel="noreferrer">Poeltl Clone</a>
