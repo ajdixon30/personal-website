@@ -3,7 +3,7 @@ import "../styles/Resume.css"
 
 const Resume = () => {
     return (
-        <div className="border-bottom border-black border-2 container resume-container justify-content-center text-start py-5" id="resume">
+        <div className="border-bottom border-black border-2 container resume-container justify-content-center text-start" id="resume">
             <div className="row pb-5">
                 <div className="col-10 offset-1 col-md-8 offset-md-2">
                     <p className="border-bottom border-dark fw-semibold list-title">Skills:</p>
@@ -18,7 +18,7 @@ const Resume = () => {
                     </ul>
                 </div>
             </div>
-            <div className="row">
+            <div className="row pb-5">
                 <div className="col-10 offset-1 col-md-8 offset-md-2">
                     <p className="border-bottom border-dark fw-semibold list-title">Education &amp; Work:</p>
                     <ul className="list">

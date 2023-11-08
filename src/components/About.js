@@ -3,8 +3,8 @@ import "../styles/About.css";
 
 const About = () => {
     return (
-        <div className="about-container container border-bottom border-black border-2 py-5" id="about">
-            <div className="row">
+        <div className="about-container container border-bottom border-black border-2" id="about">
+            <div className="row pb-5">
                 <div className="col-10 offset-1 col-md-8 offset-md-2">
                     <p id="intro">
                         Hi, my name is Adam. I have a bachelor's degree in Mechanical engineering,

@@ -4,6 +4,10 @@ import "../styles/Headshot.css"
 const Headshot = () => {
     const sites = [
         {
+            website: 'Resume',
+            url: 'adam_dixon_resume.pdf'
+        },
+        {
             website: 'LinkedIn',
             url: 'https://www.linkedin.com/in/adam-julian-dixon/'
         },
@@ -33,6 +37,15 @@ const Headshot = () => {
                     <p id="contact-title">Aspiring Software Developer</p>
                     <p id="contact-email"><b><u>Email:</u></b> adam.dixon30@gmail.com</p>
                     {sites.map((site, index) => {
+                        if (site.website === 'Resume') {
+                            return (
+                                <div className="row" key={index}>
+                                    <div className="col">
+                                        <p className="fw-bold link"><a className="link-dark" href={site.url} download>{site.website}</a></p>
+                                    </div>
+                                </div>
+                            )
+                        }
                         return (
                             <div className="row" key={index}>
                                 <div className="col">

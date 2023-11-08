@@ -2,6 +2,9 @@
     display: flex;
     align-items:center;
 }
+#portfolio{
+    padding-top: 15vh;
+}
 #projects-intro{
     font-size: 4vw;
 }
