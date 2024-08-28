@@ -5,7 +5,7 @@ const Headshot = () => {
     const sites = [
         {
             website: 'Resume',
-            url: 'adam_dixon_resume.pdf'
+            url: 'adam_dixon_resume_software_engineering.pdf'
         },
         {
             website: 'LinkedIn',

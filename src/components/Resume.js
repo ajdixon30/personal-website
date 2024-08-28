@@ -22,6 +22,7 @@ const Resume = () => {
                 <div className="col-10 offset-1 col-md-8 offset-md-2">
                     <p className="border-bottom border-dark fw-semibold list-title">Education &amp; Work:</p>
                     <ul className="list">
+                        <li>Merchandising Execution Associate - Home Depot (Feb '24 - )</li>
                         <li>
                             Senior Associate - Infosys (Dec '21 - May '23)
                             <ul>
